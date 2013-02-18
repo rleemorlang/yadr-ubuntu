@@ -60,6 +60,8 @@ hi! CursorLine cterm=NONE gui=NONE
 hi! Visual ctermbg=233
 hi! Type gui=bold
 
+hi! ColorColumn ctermbg=234
+hi! ColorColumn guibg=#002833
 
 " Enforce the colors set here
 au VimEnter * so ~/.vim/plugin/settings/solarized.vim
