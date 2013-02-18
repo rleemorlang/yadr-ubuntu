@@ -16,6 +16,9 @@ if has("gui_running")
   set columns=190
 
   set guifont=Ubuntu\ Mono\ 10
+
+  " workaround Powerline problem where statusline doesn't init properly
+  autocmd FocusGained * silent PowerlineReloadColorscheme
 else
   "dont load csapprox if we no gui support - silences an annoying warning
   let g:CSApprox_loaded = 1
