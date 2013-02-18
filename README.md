@@ -8,11 +8,27 @@
     # Yet Another Dotfile Repo v1.0
     # Now with Prezto!
 
-    git clone https://github.com/skwp/dotfiles ~/.yadr
+    git clone https://github.com/rleemorlang/yadr-ubuntu ~/.yadr
     cd ~/.yadr && rake install
 
 This is a collection of best of breed tools from across the web,
 from scouring other people's dotfile repos, blogs, and projects.
+
+## What is YADR-Ubuntu?
+
+The original YADR at https://github.com/skwp/dotfiles only supports OS X.
+This is perfectly understandable, but I use Ubuntu. YADR looks great, and 
+it seemed a lot easier to modify YADR to work better with Ubuntu than to start
+from scratch.
+
+### Status?
+
+This is a work in progress. Keymappings still need adjustment, for example.
+
+### What's different from original YADR?
+
+  * Fonts replaced with Ubuntu Mono and patched for Powerline glyphs
+  * Minor appearance tweaks
 
 ## What is YADR?
 
@@ -43,7 +59,7 @@ Installation is automated via `rake` and the `yadr` command. To get
 started please run:
 
 ```bash
-git clone https://github.com/skwp/dotfiles ~/.yadr
+git clone https://github.com/rleemorlang/yadr-ubuntu ~/.yadr
 cd ~/.yadr && rake install
 ```
 
